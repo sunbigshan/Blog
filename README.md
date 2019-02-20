@@ -9,6 +9,9 @@
 
 #### 前端进阶系列
 
-- 【进阶1期】理解 JavaScript 程序的执行机制
+- 【进阶1期】深入 JavaScript 的执行机制
 
-  - 【进阶1-1期】[理解执行上下文与调用栈](https://github.com/sunbigshan/Blog/issues/4)
+  - 【进阶1-1期】[理解执行上下文](https://github.com/sunbigshan/Blog/issues/4)
+  - 【进阶1-2期】[理解执行上下文栈](https://github.com/sunbigshan/Blog/issues/5)
+  - 【进阶1-3期】[理解变量对象](https://github.com/sunbigshan/Blog/issues/6)
+
