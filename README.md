@@ -10,8 +10,8 @@
 #### 前端进阶系列
 
 - 【进阶1期】深入 JavaScript 的执行机制
-
   - 【进阶1-1期】[理解执行上下文](https://github.com/sunbigshan/Blog/issues/4)
   - 【进阶1-2期】[理解执行上下文栈](https://github.com/sunbigshan/Blog/issues/5)
   - 【进阶1-3期】[理解变量对象](https://github.com/sunbigshan/Blog/issues/6)
-
+  - 【进阶1-4期】理解作用域链
+  - 【进阶1-5期】this 的全面解析
