@@ -14,4 +14,5 @@
   - 【进阶1-2期】[理解执行上下文栈](https://github.com/sunbigshan/Blog/issues/5)
   - 【进阶1-3期】[理解变量对象](https://github.com/sunbigshan/Blog/issues/6)
   - 【进阶1-4期】[理解作用域链](https://github.com/sunbigshan/Blog/issues/7)
-  - 【进阶1-5期】this 的全面解析
+  - 【进阶1-5期】[理解闭包](https://github.com/sunbigshan/Blog/issues/9)
+  - 【进阶1-6期】this 的全面解析
