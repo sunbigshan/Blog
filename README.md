@@ -18,3 +18,4 @@
   - 【进阶1-6期】[this 的全面解析](https://github.com/sunbigshan/Blog/issues/10)
   - 【进阶1-7期】[理解内存机制](https://github.com/sunbigshan/Blog/issues/11)
   - 【进阶1-8期】[理解同步任务、异步任务与事件循环](https://github.com/sunbigshan/Blog/issues/12)
+  - 【进阶1-9期】[Tasks, microtasks, queues and schedules](https://github.com/sunbigshan/Blog/issues/13)
