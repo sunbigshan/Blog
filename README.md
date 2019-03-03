@@ -17,5 +17,5 @@
   - 【进阶1-5期】[理解闭包](https://github.com/sunbigshan/Blog/issues/9)
   - 【进阶1-6期】[理解内存机制](https://github.com/sunbigshan/Blog/issues/11)
   - 【进阶1-7期】[理解同步任务、异步任务与事件循环](https://github.com/sunbigshan/Blog/issues/12)
-- 【进阶2期】深入 this 机制
+- 【进阶2期】重新认识 this
   - 【进阶2-1期】[this 的全面解析](https://github.com/sunbigshan/Blog/issues/10)
