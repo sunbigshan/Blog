@@ -21,5 +21,5 @@
   - 【进阶2-1期】[重新认识 this](https://github.com/sunbigshan/Blog/issues/10)
   - 【进阶2-2期】[通过两道面试题继续加深对 this 的理解](https://github.com/sunbigshan/Blog/issues/14)
   - 【进阶2-3期】[深度解析 call 和 apply 的原理、应用场景及实现](https://github.com/sunbigshan/Blog/issues/15)
-  - 【进阶2-4期】深度解析 bind 的原理、应用场景及实现
+  - 【进阶2-4期】[深度解析 bind 的原理、应用场景及实现](https://github.com/sunbigshan/Blog/issues/16)
   - 【进阶2-5期】深度解析 new 的原理与实现
