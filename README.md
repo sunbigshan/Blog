@@ -30,4 +30,4 @@
 
 #### 随笔
 
-- [尾调用的解析与优化](https://github.com/sunbigshan/Blog/issues/20)
+- [尾调用与尾递归](https://github.com/sunbigshan/Blog/issues/20)
