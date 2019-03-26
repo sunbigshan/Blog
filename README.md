@@ -26,3 +26,8 @@
   - 【进阶2-5期】[深度解析 new 的原理与实现](https://github.com/sunbigshan/Blog/issues/17)
 - 【进阶3期】原型与继承
   - 【进阶3-1期】[理解原型与原型链](https://github.com/sunbigshan/Blog/issues/19)
+
+
+#### 随笔
+
+- [尾调用的解析与优化](https://github.com/sunbigshan/Blog/issues/20)
