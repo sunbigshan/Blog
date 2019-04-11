@@ -27,7 +27,11 @@
 - 【进阶3期】原型与继承
   - 【进阶3-1期】[理解原型与原型链](https://github.com/sunbigshan/Blog/issues/19)
 
+#### 剖析Vue源码系列
+
+- [Object的变化侦测](https://github.com/sunbigshan/Blog/issues/21)
 
 #### 随笔
 
 - [尾调用与尾递归](https://github.com/sunbigshan/Blog/issues/20)
+
