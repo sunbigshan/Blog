@@ -30,7 +30,7 @@
 #### 剖析vue实现原理
 
 - 【第一篇】变化侦测
-  - [前言](https://github.com/sunbigshan/Blog/issues/22)
+  - [什么是变化侦测](https://github.com/sunbigshan/Blog/issues/22)
   - [Object的变化侦测](https://github.com/sunbigshan/Blog/issues/21)
 
 
