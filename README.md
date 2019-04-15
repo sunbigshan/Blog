@@ -31,6 +31,7 @@
 
 - 【第一篇】变化侦测
   - [Object的变化侦测](https://github.com/sunbigshan/Blog/issues/21)
+  - [Array的变化侦测](https://github.com/sunbigshan/Blog/issues/22)
 
 
 #### 随笔
