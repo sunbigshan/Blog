@@ -66,7 +66,7 @@ var twoSum = function(nums, target) {
     }
     for(let i = 0; i < len; i++) {
         let complement = target - nums[i];
-        if(cache[complement] && cache[complement] !== i) {
+        if(cache[complement] !== undefined && cache[complement] !== i) {
             return [i, cache[complement]];
         }
     }
@@ -81,5 +81,31 @@ var twoSum = function(nums, target) {
 
 ------
 
-#### 方法三：一遍哈希表
+#### 方法三：一次遍历
 
+> 在进行遍历并把元素存入对象的同时，我们可以回过头来检查对象中是否已经存在当前元素所对应的目标元素。如果存在，将其返回。
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+    let len = nums.length;
+    let cache = {};
+    for(let i = 0; i < len; i++) {
+        let complement = target - nums[i];
+        if(cache[complement] !== undefined) {
+            return [cache[complement], i];
+        }
+        cache[nums[i]] = i;
+    }
+    throw new Error('No two sum solution"')
+}
+```
+
+#### 复杂度分析：
+
+- 时间复杂度：O(n)，我们只遍历了包含有 nn 个元素的列表一次。在表中进行的每次查找只花费 O(1)O(1) 的时间。
+- 空间复杂度：O(n)，所需的额外空间取决于哈希表中存储的元素数量，该表最多需要存储 nn 个元素。
