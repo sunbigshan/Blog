@@ -31,4 +31,4 @@
 #### 随笔
 
 - [尾调用与尾递归](https://github.com/sunbigshan/Blog/issues/20)
-
+- [简单手写实现promise](https://github.com/sunbigshan/Blog/issues/23)
