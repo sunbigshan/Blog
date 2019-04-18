@@ -27,7 +27,7 @@
   - [Object的变化侦测](https://github.com/sunbigshan/Blog/issues/21)
   - [Array的变化侦测](https://github.com/sunbigshan/Blog/issues/22)
 - 【第二篇】虚拟DOM
-  - [什么是虚拟DOM](https://github.com/sunbigshan/Blog/issues/24)
+  - [虚拟DOM简介](https://github.com/sunbigshan/Blog/issues/24)
   - [patch(diff算法)解析](https://github.com/sunbigshan/Blog/issues/25)
 
 
