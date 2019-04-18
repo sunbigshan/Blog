@@ -28,7 +28,7 @@
   - [Array的变化侦测](https://github.com/sunbigshan/Blog/issues/22)
 - 【第二篇】虚拟DOM
   - [什么是虚拟DOM](https://github.com/sunbigshan/Blog/issues/24)
-  - [patch解析(diff算法)](https://github.com/sunbigshan/Blog/issues/25)
+  - [patch(diff算法)解析](https://github.com/sunbigshan/Blog/issues/25)
 
 
 #### 随笔
