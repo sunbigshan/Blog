@@ -28,11 +28,11 @@
   - [Array的变化侦测](https://github.com/sunbigshan/Blog/issues/22)
 - 【第二篇】虚拟DOM
   - [虚拟DOM简介](https://github.com/sunbigshan/Blog/issues/24)
-  - [patch(diff算法)解析](https://github.com/sunbigshan/Blog/issues/25)
+  - [patch(diff算法)解析](https://github.com/sunbigshan/Blog/issues/25)(未完成)
 
 
 #### 随笔
 
 - [尾调用与尾递归](https://github.com/sunbigshan/Blog/issues/20)
 - [简单手写实现promise](https://github.com/sunbigshan/Blog/issues/23)
-- [前端十大经典排序算法](https://github.com/sunbigshan/Blog/issues/26)
+- [前端十大经典排序算法](https://github.com/sunbigshan/Blog/issues/26)(未完成)
