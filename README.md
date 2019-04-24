@@ -35,4 +35,4 @@
 
 - [尾调用与尾递归](https://github.com/sunbigshan/Blog/issues/20)
 - [简单手写实现promise](https://github.com/sunbigshan/Blog/issues/23)
-- [前端十大经典排序算法](https://github.com/sunbigshan/Blog/issues/26)(未完成)
+- [十大经典排序算法](https://github.com/sunbigshan/Blog/issues/26)(未完成)
