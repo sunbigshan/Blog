@@ -32,8 +32,17 @@
 
 #### 算法系列
 
-- [十大经典排序算法](https://github.com/sunbigshan/Blog/tree/master/%E5%8D%81%E5%A4%A7%E7%BB%8F%E5%85%B8%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95)
-  - [冒泡排序](https://github.com/sunbigshan/Blog/issues/26)
+[十大经典排序算法](https://github.com/sunbigshan/Blog/tree/master/%E5%8D%81%E5%A4%A7%E7%BB%8F%E5%85%B8%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95)
+- [x] [冒泡排序](https://github.com/sunbigshan/Blog/issues/26)
+- [ ] 选择排序
+- [ ] 插入排序
+- [ ] 希尔排序
+- [ ] 归并排序
+- [ ] 快速排序
+- [ ] 堆排序
+- [ ] 计数排序
+- [ ] 桶排序
+- [ ] 基数排序
 
 #### 随笔
 
