@@ -22,7 +22,7 @@
 - [x] [1. 冒泡排序](#bubble)
 - [x]  [2. 选择排序](#selection)
 
-### <a name="bubble">冒泡排序</a>
+### <a name="bubble">一、冒泡排序</a>
 
 1）**算法描述**
 
@@ -154,7 +154,7 @@ function bubbleSort3(arr) {
 
 ![image](https://user-images.githubusercontent.com/36752487/56718915-4e5a8a80-6772-11e9-98a0-db6bae846c5d.png)
 
-### <a name="selection">选择排序</a>
+### <a name="selection">二、选择排序</a>
 
 1）**算法描述**
 
