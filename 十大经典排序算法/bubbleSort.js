@@ -24,7 +24,7 @@ console.log(bubbleSort(arr))
 
 
 function bubbleSort2(arr) {
-    console.time('改良冒泡排序耗时');
+    console.time('改良1冒泡排序耗时');
     let i = arr.length - 1;
     while(i > 0) {
         let pos = 0;
@@ -40,7 +40,7 @@ function bubbleSort2(arr) {
         // 记录最后的交换位置
         i = pos;
     }
-    console.timeEnd('改良冒泡排序耗时')
+    console.timeEnd('改良1冒泡排序耗时')
     return arr;
 }
 
@@ -49,7 +49,7 @@ console.log(bubbleSort2(arr2))
 
 
 function bubbleSort3(arr) {
-    console.time('最终版冒泡排序耗时');
+    console.time('改良2冒泡排序耗时');
     let low = 0,
         high = arr.length - 1,
         j,
@@ -72,7 +72,7 @@ function bubbleSort3(arr) {
         }
         high--;
     }
-    console.timeEnd('最终版冒泡排序耗时');
+    console.timeEnd('改良2冒泡排序耗时');
     return arr;
 }
 

@@ -48,8 +48,6 @@
 
 4）**代码实现**
 
-传统冒泡排序代码如下：
-
 ```javascript
 /**
  * 冒泡排序
@@ -74,10 +72,67 @@ function bubbleSort(arr) {
 
 let arr = [3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48];
 console.log(bubbleSort(arr))
-
-// 传统冒泡排序耗时: 0.502ms
-// [ 2, 3, 4, 5, 15, 19, 26, 27, 36, 38, 44, 46, 47, 48, 50 ]
 ```
 
 > 改进冒泡排序：设置标志位变量 pos，用于记录每趟排序中最后一次进行交换的位置。由于 pos 之后的元素都已经排序到位，因此下一
 > 趟排序只需要扫描到 pos 的位置即可。
+
+```javascript
+function bubbleSort2(arr) {
+    console.time('改良冒泡排序耗时');
+    let i = arr.length - 1;
+    while(i > 0) {
+        let pos = 0;
+        for(let j = 0; j < i; j++) {
+            if(arr[j] > arr[j + 1]) {
+                let temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+                // 记录交换位置
+                pos = j;
+            }
+        }
+        // 记录最后的交换位置
+        i = pos;
+    }
+    console.timeEnd('改良冒泡排序耗时')
+    return arr;
+}
+```
+
+> 传统冒泡排序中每一趟排序只能找到一个最大值或最小值，我们可以在每趟排序中进行正向和反向两边冒泡的方式一次得到两个最终值，
+> 从而使排序趟数减少一半。
+
+```javascript
+function bubbleSort3(arr) {
+    console.time('改良2冒泡排序耗时');
+    let low = 0,
+         high = arr.length - 1,
+         j,
+         temp;
+    while(low < high) {
+        for(j = low; j < high; j++) {
+            if(arr[j] > arr[j + 1]) {
+                temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+        low++;
+        for(j = high; j > low; j--) {
+            if(arr[j] < arr[ j - 1]) {
+                temp = arr[j];
+                arr[j] = arr[j - 1];
+                arr[j - 1] = temp;
+            }
+        }
+        high--;
+    }
+    console.timeEnd('改良2冒泡排序耗时');
+    return arr;
+}
+```
+
+三种方法耗时对比：
+
+![image](https://user-images.githubusercontent.com/36752487/56718727-e5731280-6771-11e9-97f0-92279d02b514.png)
