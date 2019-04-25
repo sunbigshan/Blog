@@ -135,5 +135,6 @@ function bubbleSort3(arr) {
 
 三种方法耗时对比：
 
-![image](https://user-images.githubusercontent.com/36752487/56718806-0fc4d000-6772-11e9-9eff-318a7a084200.png)
+![image](https://user-images.githubusercontent.com/36752487/56718915-4e5a8a80-6772-11e9-98a0-db6bae846c5d.png)
+
 
