@@ -46,7 +46,11 @@
 冒泡排序就是把小的元素往前调或者把大的元素往后调。比较发生在两个相邻元素之间，如果两元素相等，是不会交换的，所以冒泡排序
 是一种稳定的排序算法。
 
-4）**代码实现**
+4）**动态图演示**
+
+![冒泡排序](https://user-images.githubusercontent.com/36752487/56719080-99749d80-6772-11e9-8528-20f226644227.gif)
+
+5）**代码实现**
 
 ```javascript
 /**
@@ -136,5 +140,3 @@ function bubbleSort3(arr) {
 三种方法耗时对比：
 
 ![image](https://user-images.githubusercontent.com/36752487/56718915-4e5a8a80-6772-11e9-98a0-db6bae846c5d.png)
-
-
