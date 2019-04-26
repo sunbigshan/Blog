@@ -21,6 +21,7 @@
 
 - [x] [1. 冒泡排序](#bubble)
 - [x]  [2. 选择排序](#selection)
+- [x]  [3. 插入排序](#insertion)
 
 ### <a name="bubble">一、冒泡排序</a>
 
@@ -53,7 +54,7 @@
 
 - 最差情况：`O(n^2)`
 
-> 输入的数据是反序，需要进行 n - 1 趟排序，每趟排序要进行 n - i 比较，且每次比较都必须移动记录三次来达到交换记录位置，在这种情
+> 输入的数据是反序，需要进行 n - 1 趟排序，每趟排序要进行 n - i 次比较，且每次比较都必须移动记录三次来达到交换记录位置，在这种情
 > 况下，比较和移动次数均达到最大值
 
 - 平均情况：`O(n^2)`
@@ -216,3 +217,93 @@ function selectionSort(arr) {
     return arr;
 }
 ```
+
+### <a name="insertion">三、插入排序</a>
+
+1）**算法描述**
+
+插入排序（Insertion-Sort）的算法描述是一种简单直观的排序算法。它的工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。插入排序在实现上，通常采用in-place排序（即只需用到O(1)的额外空间的排序），因而在从后向前扫描过程中，需要反复把已排序元素逐步向后挪位，为最新元素提供插入空间。
+
+2）**算法原理**
+
+每步将一个待排序的记录，按其关键码值的大小插入前面已经排序的文件中适当位置上，直到全部插入完为止。
+
+3）**动态图演示**
+
+![插入排序](https://user-images.githubusercontent.com/36752487/56788489-33e7e600-6832-11e9-85ab-c95675eabd68.gif)
+
+4）**算法分析**
+
+#### 时间复杂度
+
+- 最佳情况：`O(n)`
+
+>  输入的数据已经是正序，只需要一趟扫描，比较次数为 n - 1，移动次数为 0，都为最小值
+
+- 最差情况：`O(n^2)`
+
+> 输入的数据是反序，那么此时需要进行的比较共有n(n-1)/2次。插入排序的赋值操作是比较操作的次数加上 (n-1）次。平均来说插入排序
+> 算法的时间复杂度为O(n^2）
+
+- 平均情况：`O(n^2)`
+
+#### 稳定性
+
+插入排序是在一个已经有序的小序列的基础上，一次插入一个元素。当然，刚开始这个有序的小序列只有1个元素，就是第一个元素。比较是从有序序列的末尾开始，也就是想要插入的元素和已经有序的最大者开始比起，如果比它大则直接插入在其后面，否则一直往前找直到找到它该插入的位置。如果碰见一个和插入元素相等的，那么插入元素把想插入的元素放在相等元素的后面。所以，相等元素的前后顺序没有改变，从原无序序列出去的顺序就是排好序后的顺序，所以插入排序是稳定的。
+
+5）**代码实现**
+
+```javascript
+/**
+ * 插入排序
+ * @param {Array} arr
+ * @return {Array}
+ */
+function insertSort(arr) {
+    console.time('插入排序耗时');
+    let len = arr.length;
+    for(let i = 1; i < len; i++) {
+        let key = arr[i];
+        let j = i - 1;
+        while(j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+        arr[j + 1] = key;
+    }
+    console.timeEnd('插入排序耗时');
+    return arr;
+}
+```
+
+使用二分查找优化，代码如下：
+
+```javascript
+function insertSort2(arr) {
+    console.time('二分插入排序耗时');
+    let len = arr.length;
+    for(let i = 1; i < len; i++) {
+        let key = arr[i], 
+             left = 0,
+             right = i - 1;
+        while(left <= right) {
+            let mid = parseInt((left + right) / 2);
+            if(key < arr[mid]) {
+                right = mid - 1;
+            }else{
+                left = mid + 1;
+            }
+        }
+        for(let j = i - 1; j >= left; j--) {
+            arr[j + 1] = arr[j];
+        }
+        arr[left] = key;
+    }
+    console.timeEnd('二分插入排序耗时');
+    return arr;
+}
+```
+
+三种方法耗时对比：
+
+![image](https://user-images.githubusercontent.com/36752487/56788556-61cd2a80-6832-11e9-9f62-7472dc066d31.png)
