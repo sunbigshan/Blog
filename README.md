@@ -23,8 +23,8 @@
 
 #### 彻底搞定 Webpack4
 
-- [1.webpack 的基础配置](https://github.com/sunbigshan/Blog/issues/29)
-- [2.webpack 打包出的文件解析](https://github.com/sunbigshan/Blog/issues/30)
+1. [webpack 的基础配置](https://github.com/sunbigshan/Blog/issues/29)
+2. [webpack 打包出的文件解析](https://github.com/sunbigshan/Blog/issues/30)
 
 #### 剖析vue实现原理
 
