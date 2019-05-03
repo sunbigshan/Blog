@@ -21,6 +21,10 @@
   - 【进阶3-1期】[重新认识构造函数、原型和原型链](https://github.com/sunbigshan/Blog/issues/19)
   - 【进阶3-2期】[深度解析 new 的原理与实现](https://github.com/sunbigshan/Blog/issues/17)
 
+#### 彻底搞定 Webpack4
+
+- [webpack 的基础配置](https://github.com/sunbigshan/Blog/issues/29)
+
 #### 剖析vue实现原理
 
 - 【第一篇】变化侦测
