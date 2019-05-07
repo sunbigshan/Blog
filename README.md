@@ -30,6 +30,7 @@
 5. [转化es6语法](https://github.com/sunbigshan/Blog/issues/33)
 6. [全局变量的引入问题](https://github.com/sunbigshan/Blog/issues/34)
 7. [图片处理](https://github.com/sunbigshan/Blog/issues/35)
+8. [打包文件分类](https://github.com/sunbigshan/Blog/issues/36)
 
 #### 剖析vue实现原理
 
