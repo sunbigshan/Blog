@@ -21,8 +21,8 @@
   - 【进阶3-1期】[重新认识构造函数、原型和原型链](https://github.com/sunbigshan/Blog/issues/19)
   - 【进阶3-2期】[深度解析 new 的原理与实现](https://github.com/sunbigshan/Blog/issues/17)
 - 【进阶4期】Vue 变化侦测
-  - [Object的变化侦测](https://github.com/sunbigshan/Blog/issues/21)
-  - [Array的变化侦测](https://github.com/sunbigshan/Blog/issues/22)
+  - 【进阶4-1期】[Object的变化侦测](https://github.com/sunbigshan/Blog/issues/21)
+  - 【进阶4-2期】[Array的变化侦测](https://github.com/sunbigshan/Blog/issues/22)
 
 #### 算法系列
 
