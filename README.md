@@ -20,26 +20,9 @@
 - 【进阶3期】原型、原型链与继承
   - 【进阶3-1期】[重新认识构造函数、原型和原型链](https://github.com/sunbigshan/Blog/issues/19)
   - 【进阶3-2期】[深度解析 new 的原理与实现](https://github.com/sunbigshan/Blog/issues/17)
-
-#### 彻底搞定 Webpack4
-
-1. [webpack 的基础配置](https://github.com/sunbigshan/Blog/issues/29)
-2. [webpack 打包出的文件解析](https://github.com/sunbigshan/Blog/issues/30)
-3. [Html 插件](https://github.com/sunbigshan/Blog/issues/31)
-4. [样式处理](https://github.com/sunbigshan/Blog/issues/32)
-5. [转化es6语法](https://github.com/sunbigshan/Blog/issues/33)
-6. [全局变量的引入问题](https://github.com/sunbigshan/Blog/issues/34)
-7. [图片处理](https://github.com/sunbigshan/Blog/issues/35)
-8. [打包文件分类](https://github.com/sunbigshan/Blog/issues/37)
-
-#### 剖析vue实现原理
-
-- 【第一篇】变化侦测
+- 【进阶4期】Vue 变化侦测
   - [Object的变化侦测](https://github.com/sunbigshan/Blog/issues/21)
   - [Array的变化侦测](https://github.com/sunbigshan/Blog/issues/22)
-- 【第二篇】虚拟DOM
-  - [虚拟DOM简介](https://github.com/sunbigshan/Blog/issues/24)
-  - [patch(diff算法)解析](https://github.com/sunbigshan/Blog/issues/25)(未完成)
 
 #### 算法系列
 
