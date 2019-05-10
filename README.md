@@ -26,7 +26,7 @@
 
 #### 算法系列
 【数据结构与算法之美】
-- [导读]()
+- [导读](https://github.com/sunbigshan/learnAlgorithm/blob/master/README.md)
 
 【十大经典排序算法】
 - [x] [冒泡排序](https://github.com/sunbigshan/Blog/issues/26)
