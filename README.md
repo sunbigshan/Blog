@@ -24,10 +24,10 @@
   - 【进阶4-1期】[Object的变化侦测](https://github.com/sunbigshan/Blog/issues/21)
   - 【进阶4-2期】[Array的变化侦测](https://github.com/sunbigshan/Blog/issues/22)
 
-#### 算法系列
-[从零开始学算法](https://github.com/sunbigshan/learnAlgorithm)
+#### 算法菜鸟的成长之路
+[从零开始学算法系列](https://github.com/sunbigshan/learnAlgorithm)
 
-【十大经典排序算法】
+十大经典排序算法
 - [x] [冒泡排序](https://github.com/sunbigshan/Blog/issues/26)
 - [x] [选择排序](https://github.com/sunbigshan/Blog/issues/27)
 - [x] [插入排序](https://github.com/sunbigshan/Blog/issues/28)
