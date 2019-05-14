@@ -27,6 +27,9 @@
 #### 算法系列
 【数据结构与算法之美】
 - [导读](https://github.com/sunbigshan/learnAlgorithm/blob/master/README.md)
+- [【入门篇】复杂度分析（上）](https://github.com/sunbigshan/learnAlgorithm/issues/1)
+- [【入门篇】复杂度分析（中）](https://github.com/sunbigshan/learnAlgorithm/issues/2)
+- [【入门篇】复杂度分析（下）](https://github.com/sunbigshan/learnAlgorithm/issues/3)
 
 【十大经典排序算法】
 - [x] [冒泡排序](https://github.com/sunbigshan/Blog/issues/26)
