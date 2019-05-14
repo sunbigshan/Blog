@@ -27,18 +27,6 @@
 #### 算法菜鸟的成长之路
 [从零开始学算法系列](https://github.com/sunbigshan/learnAlgorithm)
 
-十大经典排序算法
-- [x] [冒泡排序](https://github.com/sunbigshan/Blog/issues/26)
-- [x] [选择排序](https://github.com/sunbigshan/Blog/issues/27)
-- [x] [插入排序](https://github.com/sunbigshan/Blog/issues/28)
-- [ ] 希尔排序
-- [ ] 归并排序
-- [ ] 快速排序
-- [ ] 堆排序
-- [ ] 计数排序
-- [ ] 桶排序
-- [ ] 基数排序
-
 #### 随笔
 
 - [尾调用与尾递归](https://github.com/sunbigshan/Blog/issues/20)
