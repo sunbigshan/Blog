@@ -23,6 +23,13 @@
 - 【进阶4期】Vue 变化侦测
   - 【进阶4-1期】[Object的变化侦测](https://github.com/sunbigshan/Blog/issues/21)
   - 【进阶4-2期】[Array的变化侦测](https://github.com/sunbigshan/Blog/issues/22)
+- 【进阶5期】浏览器的实现原理和API
+  - 【进阶5-1期】[浏览器的请求过程解析]()
+  - 【进阶5-2期】[HTML 代码的解析过程]()
+  - 【进阶5-3期】[CSS 代码的解析过程]()
+  - 【进阶5-4期】[浏览器的排版解析]()
+  - 【进阶5-5期】[浏览器的位图操作]()
+
 
 #### 算法菜鸟的成长之路
 [从零开始学算法系列](https://github.com/sunbigshan/learnAlgorithm)

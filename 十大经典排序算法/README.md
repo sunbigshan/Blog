@@ -20,8 +20,9 @@
 ### 十大经典排序
 
 - [x] [1. 冒泡排序](#bubble)
-- [x]  [2. 选择排序](#selection)
-- [x]  [3. 插入排序](#insertion)
+- [x] [2. 选择排序](#selection)
+- [x] [3. 插入排序](#insertion)
+- [x] [4. 希尔排序](#shell)
 
 ### <a name="bubble">一、冒泡排序</a>
 
@@ -307,3 +308,35 @@ function insertSort2(arr) {
 三种方法耗时对比：
 
 ![image](https://user-images.githubusercontent.com/36752487/56788556-61cd2a80-6832-11e9-9f62-7472dc066d31.png)
+
+### <a name="shell">四、希尔排序</a>
+
+> 1959年Shell发明； 第一个突破O(n^2)的排序算法；是简单插入排序的改进版；它与插入排序的不同之处在于，它会优先比较距离较远的
+> 元素。希尔排序又叫缩小增量排序
+
+1）**算法描述**
+
+希尔排序的核心在于间隔序列的设定。既可以提前设定好间隔序列，也可以动态的定义间隔序列。动态定义间隔序列的算法是
+《算法（第4版》的合著者 Robert Sedgewick 提出的。
+
+5）**代码实现**
+
+```javascript
+/**
+ * 希尔排序
+ * @param {Array} arr
+ * @return {Array}
+ */
+function shellSort(arr) {
+    console.time('希尔排序耗时');
+    let len = arr.length,
+         temp,
+         gap = 1;
+    
+     for(; gap > 0; gap = Math.floor(gap / 5)) {
+         console.log(gap)
+     }
+     console.timeEnd('希尔排序耗时');
+     return arr;
+}
+```
