@@ -24,7 +24,7 @@
   - 【进阶4-1期】[Object的变化侦测](https://github.com/sunbigshan/Blog/issues/21)
   - 【进阶4-2期】[Array的变化侦测](https://github.com/sunbigshan/Blog/issues/22)
 - 【进阶5期】浏览器的实现原理和API
-  - 【进阶5-1期】[浏览器的请求过程解析]()
+  - 【进阶5-1期】[浏览器的请求过程解析](https://github.com/sunbigshan/Blog/issues/39)
   - 【进阶5-2期】[HTML 代码的解析过程]()
   - 【进阶5-3期】[CSS 代码的计算过程]()
   - 【进阶5-4期】[浏览器的排版解析]()
