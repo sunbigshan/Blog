@@ -33,4 +33,4 @@
 - [尾调用与尾递归](https://github.com/sunbigshan/Blog/issues/20)
 - [简单手写实现promise](https://github.com/sunbigshan/Blog/issues/23)
 - [介绍下深度优先遍历和广度优先遍历，如何实现？](https://github.com/sunbigshan/Blog/issues/38)
-
+- [使用 MutationObserver 取代 DOMContentLoaded 事件](https://github.com/sunbigshan/Blog/issues/42)
