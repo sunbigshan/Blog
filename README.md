@@ -20,9 +20,12 @@
 - 【进阶3期】原型、原型链与继承
   - 【进阶3-1期】[重新认识构造函数、原型和原型链](https://github.com/sunbigshan/Blog/issues/19)
   - 【进阶3-2期】[深度解析 new 的原理与实现](https://github.com/sunbigshan/Blog/issues/17)
-- 【进阶4期】Vue 变化侦测
+- 【进阶4期】Vue 原理剖析
   - 【进阶4-1期】[Object的变化侦测](https://github.com/sunbigshan/Blog/issues/21)
   - 【进阶4-2期】[Array的变化侦测](https://github.com/sunbigshan/Blog/issues/22)
+- 【进阶5期】Webpack 原理剖析
+  - 【进阶5-1期】[webpack 打包出的文件解析](https://github.com/sunbigshan/Blog/issues/44)
+  
 
 
 #### 算法菜鸟的成长之路
