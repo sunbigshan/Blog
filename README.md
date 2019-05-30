@@ -26,7 +26,7 @@
 - **【进阶5期】Webpack 原理剖析**
   - 【进阶5-1期】[webpack 打包出的文件解析](https://github.com/sunbigshan/Blog/issues/44)
   - 【进阶5-2期】[webpack 核心模块 tapable 解析](https://github.com/sunbigshan/Blog/issues/45)
-  - 【进阶5-3期】手写 webpack（一）
+  - 【进阶5-3期】[手写 webpack（一）](https://github.com/sunbigshan/Blog/issues/46)
   - 【进阶5-4期】手写 webpack（二）
   - 【进阶5-5期】手写 webpack（三）
   - 【进阶5-6期】手写 loader
