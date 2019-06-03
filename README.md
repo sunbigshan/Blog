@@ -33,7 +33,7 @@
   - 【进阶5-3期】[手写 webpack（一）](https://github.com/sunbigshan/Blog/issues/46)
   - 【进阶5-4期】[手写 webpack（二）](https://github.com/sunbigshan/Blog/issues/47)
   - 【进阶5-5期】[手写 webpack（三）](https://github.com/sunbigshan/Blog/issues/48)
-  - 【进阶5-6期】手写 loader
+  - 【进阶5-6期】[手写 loader](https://github.com/sunbigshan/Blog/issues/49)
   - 【进阶5-7期】手写 plugin
   
 
