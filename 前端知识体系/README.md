@@ -12,9 +12,7 @@
 
 那么，让我们一起重学前端吧！
 
-### HTML
-
-### CSS
+### HTML 和 CSS
 
 ### JavaScript
 
