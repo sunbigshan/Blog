@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    html *{
+      padding: 0;
+      margin: 0;
+    }
+    .layout{
+      margin-top: 20px;
+    }
+    .layout .container div {
+      min-height: 100px;
+    }
+  </style>
+</head>
+<body>
+<!--浮动布局-->
+<section class="layout float">
+  <style media="screen">
+    .layout.float .left{
+      float: left;
+      width: 300px;
+      background: red;
+    }
+    .layout.float .right{
+      float: right;
+      width: 300px;
+      background: blue;
+    }
+    .layout.float .center{
+      background: yellow;
+    }
+  </style>
+  <article class="container">
+    <div class="left"></div>
+    <div class="right"></div>
+    <div class="center">
+      <h3>浮动布局解决方案</h3>
+      <p>我是内容</p>
+      <p>我是内容</p>
+    </div>
+  </article>
+</section>
+</body>
+</html>
