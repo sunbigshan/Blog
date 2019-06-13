@@ -16,6 +16,9 @@
     .layout .container div {
       min-height: 100px;
     }
+    .center{
+      overflow: hidden;
+    }
   </style>
 </head>
 <body>
@@ -43,7 +46,188 @@
       <h3>浮动布局解决方案</h3>
       <p>我是内容</p>
       <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
     </div>
+  </article>
+</section>
+<!--绝对定位布局-->
+<section class="layout position">
+  <style media="screen">
+    .layout.position .left{
+      position: absolute;
+      left: 0;
+      width: 300px;
+      background: red;
+    }
+    .layout.position .right{
+      position: absolute;
+      right: 0;
+      width: 300px;
+      background: blue;
+    }
+    .layout.position .center{
+      position: absolute;
+      left: 300px;
+      right: 300px;
+      background: yellow;
+    }
+  </style>
+  <article class="container">
+    <div class="left"></div>
+    <div class="center">
+      <h3>绝对定位布局解决方案</h3>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+    </div>
+    <div class="right"></div>
+  </article>
+</section>
+<!--弹性盒子布局-->
+<section class="layout flex">
+  <style media="screen">
+    .layout.flex .container{
+      display: flex;
+      margin-top: 140px;
+    }
+    .layout.flex .left{
+      width: 300px;
+      background: red;
+    }
+    .layout.flex .right{
+      width: 300px;
+      background: blue;
+    }
+    .layout.flex .center{
+      flex: 1;
+      background: yellow;
+    }
+  </style>
+  <article class="container">
+    <div class="left"></div>
+    <div class="center">
+      <h3>弹性盒子布局解决方案</h3>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+    </div>
+    <div class="right"></div>
+  </article>
+</section>
+<!--表格布局-->
+<section class="layout table">
+  <style media="screen">
+    .layout.table .container{
+      display: table;
+      width: 100%;
+      min-height: 100px;
+    }
+    .layout.table .container div{
+      display: table-cell;
+    }
+    .layout.table .left{
+      width: 300px;
+      background: red;
+    }
+    .layout.table .right{
+      width: 300px;
+      background: blue;
+    }
+    .layout.table .center{
+      background: yellow;
+    }
+  </style>
+  <article class="container">
+    <div class="left"></div>
+    <div class="center">
+      <h3>表格布局解决方案</h3>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+    </div>
+    <div class="right"></div>
+  </article>
+</section>
+<!--网格布局-->
+<section class="layout grid">
+  <style media="screen">
+    .layout.grid .container{
+      width:100%;
+      display: grid;
+      grid-template-rows: 100px;
+      grid-template-columns: 300px auto 300px;
+    }
+    .layout.grid .left{
+      background: red;
+    }
+    .layout.grid .right{
+      background: blue;
+    }
+    .layout.grid .center{
+      background: yellow;
+    }
+  </style>
+  <article class="container">
+    <div class="left"></div>
+    <div class="center">
+      <h3>网格布局解决方案</h3>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+      <p>我是内容</p>
+    </div>
+    <div class="right"></div>
+  </article>
+</section>
+<!--圣杯布局-->
+<section class="layout sb">
+  <style media="screen">
+    .layout.sb .container{
+      padding: 0 300px;
+    }
+    .layout.sb .container div{
+      position: relative;
+      float: left;
+    }
+    .layout.sb .left{
+      width: 300px;
+      margin-left: -100%;
+      left: -300px;
+      background: red;
+    }
+    .layout.sb .right{
+      width: 300px;
+      right: -300px;
+      margin-left: -300px;
+      background: blue;
+    }
+    .layout.sb .center{
+      width: 100%;
+      background: yellow;
+    }
+  </style>
+  <article class="container">
+    <div class="center">
+      <h3>圣杯布局解决方案</h3>
+      <p>我是内容</p>
+      <p>我是内容</p>
+    </div>
+    <div class="left">左</div>
+    <div class="right">右</div>
   </article>
 </section>
 </body>
