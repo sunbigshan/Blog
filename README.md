@@ -53,3 +53,4 @@
 - [介绍下深度优先遍历和广度优先遍历，如何实现？](https://github.com/sunbigshan/Blog/issues/38)
 - [使用 MutationObserver 取代 DOMContentLoaded 事件](https://github.com/sunbigshan/Blog/issues/42)
 - [简单分析图片Base64编码的利与弊](https://github.com/sunbigshan/Blog/issues/43)
+- [前端业务中图片类型该如何选择？](https://github.com/sunbigshan/Blog/issues/55)
