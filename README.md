@@ -54,3 +54,4 @@
 - [使用 MutationObserver 取代 DOMContentLoaded 事件](https://github.com/sunbigshan/Blog/issues/42)
 - [简单分析图片Base64编码的利与弊](https://github.com/sunbigshan/Blog/issues/43)
 - [前端业务中图片类型该如何选择？](https://github.com/sunbigshan/Blog/issues/55)
+- [不做无用功：基于渲染流程的 CSS 优化建议](https://github.com/sunbigshan/Blog/issues/56)
