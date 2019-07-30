@@ -7,7 +7,7 @@
 
 #### 如何构建知识体系
 
-[重学前端](https://github.com/sunbigshan/Blog/tree/master/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF)
+![image](https://user-images.githubusercontent.com/36752487/59406484-fdb1f600-8de0-11e9-9790-4211cb7808ce.png)
 
 #### 前端进阶系列
 
